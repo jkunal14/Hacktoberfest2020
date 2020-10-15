@@ -24,8 +24,11 @@ int minimum(int A[], int n){
 }
 
 int main(){
-    int A[] = {1, 3, 4, 1}; 
-    int size = (sizeof(A)/sizeof(int));
+    int n;
+    scanf("%d",&n);
+    int A[n];
+    for(int i=0;i<n;i++){
+        scanf("%d",&A[i])
     int min = minimum(A, size);
     // printf("%d\n",min);
     int max = maximum(A, size);
